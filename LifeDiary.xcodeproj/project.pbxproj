@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7D3E6C82654C8DD00343823 /* LifeDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6C72654C8DD00343823 /* LifeDiaryApp.swift */; };
+		A7D3E6CA2654C8DD00343823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6C92654C8DD00343823 /* ContentView.swift */; };
+		A7D3E6CC2654C8E000343823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D3E6CB2654C8E000343823 /* Assets.xcassets */; };
+		A7D3E6CF2654C8E000343823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D3E6CE2654C8E000343823 /* Preview Assets.xcassets */; };
+		A7D3E6D72654EB3500343823 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6D62654EB3500343823 /* ScheduleView.swift */; };
+		A7D3E6D92656186800343823 /* TimeAry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6D82656186800343823 /* TimeAry.swift */; };
+		A7D3E6DB2656226D00343823 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6DA2656226D00343823 /* DailyView.swift */; };
+		A7D3E6DD2657529C00343823 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6DC2657529C00343823 /* PieChart.swift */; };
+		A7D3E6DF265753A000343823 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6DE265753A000343823 /* PieChartView.swift */; };
+		A7D3E6E52657A5C800343823 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D3E6E42657A5C800343823 /* extension.swift */; };
+		A7FD68A12668974400D4F588 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD68A02668974400D4F588 /* Method.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7D3E6C42654C8DD00343823 /* LifeDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D3E6C72654C8DD00343823 /* LifeDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeDiaryApp.swift; sourceTree = "<group>"; };
+		A7D3E6C92654C8DD00343823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7D3E6CB2654C8E000343823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7D3E6CE2654C8E000343823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7D3E6D02654C8E000343823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D3E6D62654EB3500343823 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		A7D3E6D82656186800343823 /* TimeAry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAry.swift; sourceTree = "<group>"; };
+		A7D3E6DA2656226D00343823 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		A7D3E6DC2657529C00343823 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		A7D3E6DE265753A000343823 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		A7D3E6E42657A5C800343823 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		A7FD68A02668974400D4F588 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7D3E6C12654C8DD00343823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7D3E6BB2654C8DD00343823 = {
+			isa = PBXGroup;
+			children = (
+				A7D3E6C62654C8DD00343823 /* LifeDiary */,
+				A7D3E6C52654C8DD00343823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D3E6C52654C8DD00343823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7D3E6C42654C8DD00343823 /* LifeDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7D3E6C62654C8DD00343823 /* LifeDiary */ = {
+			isa = PBXGroup;
+			children = (
+				A7D3E6C92654C8DD00343823 /* ContentView.swift */,
+				A7D3E6D62654EB3500343823 /* ScheduleView.swift */,
+				A7D3E6DA2656226D00343823 /* DailyView.swift */,
+				A7D3E6DE265753A000343823 /* PieChartView.swift */,
+				A7D3E6E62657A68500343823 /* swiftFile */,
+				A7D3E6CB2654C8E000343823 /* Assets.xcassets */,
+				A7D3E6D02654C8E000343823 /* Info.plist */,
+				A7D3E6CD2654C8E000343823 /* Preview Content */,
+			);
+			path = LifeDiary;
+			sourceTree = "<group>";
+		};
+		A7D3E6CD2654C8E000343823 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7D3E6CE2654C8E000343823 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7D3E6E62657A68500343823 /* swiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD68A02668974400D4F588 /* Method.swift */,
+				A7D3E6C72654C8DD00343823 /* LifeDiaryApp.swift */,
+				A7D3E6E42657A5C800343823 /* extension.swift */,
+				A7D3E6D82656186800343823 /* TimeAry.swift */,
+				A7D3E6DC2657529C00343823 /* PieChart.swift */,
+			);
+			path = swiftFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7D3E6C32654C8DD00343823 /* LifeDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D3E6D32654C8E000343823 /* Build configuration list for PBXNativeTarget "LifeDiary" */;
+			buildPhases = (
+				A7D3E6C02654C8DD00343823 /* Sources */,
+				A7D3E6C12654C8DD00343823 /* Frameworks */,
+				A7D3E6C22654C8DD00343823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeDiary;
+			productName = LifeDiary;
+			productReference = A7D3E6C42654C8DD00343823 /* LifeDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7D3E6BC2654C8DD00343823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A7D3E6C32654C8DD00343823 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A7D3E6BF2654C8DD00343823 /* Build configuration list for PBXProject "LifeDiary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7D3E6BB2654C8DD00343823;
+			productRefGroup = A7D3E6C52654C8DD00343823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D3E6C32654C8DD00343823 /* LifeDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7D3E6C22654C8DD00343823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D3E6CF2654C8E000343823 /* Preview Assets.xcassets in Resources */,
+				A7D3E6CC2654C8E000343823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7D3E6C02654C8DD00343823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D3E6DF265753A000343823 /* PieChartView.swift in Sources */,
+				A7D3E6D92656186800343823 /* TimeAry.swift in Sources */,
+				A7D3E6D72654EB3500343823 /* ScheduleView.swift in Sources */,
+				A7D3E6DB2656226D00343823 /* DailyView.swift in Sources */,
+				A7D3E6DD2657529C00343823 /* PieChart.swift in Sources */,
+				A7FD68A12668974400D4F588 /* Method.swift in Sources */,
+				A7D3E6CA2654C8DD00343823 /* ContentView.swift in Sources */,
+				A7D3E6C82654C8DD00343823 /* LifeDiaryApp.swift in Sources */,
+				A7D3E6E52657A5C800343823 /* extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7D3E6D12654C8E000343823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7D3E6D22654C8E000343823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7D3E6D42654C8E000343823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = GY3JGYHFC6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LifeDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koheimorioka.LifeDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7D3E6D52654C8E000343823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = GY3JGYHFC6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LifeDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koheimorioka.LifeDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7D3E6BF2654C8DD00343823 /* Build configuration list for PBXProject "LifeDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D3E6D12654C8E000343823 /* Debug */,
+				A7D3E6D22654C8E000343823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D3E6D32654C8E000343823 /* Build configuration list for PBXNativeTarget "LifeDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D3E6D42654C8E000343823 /* Debug */,
+				A7D3E6D52654C8E000343823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7D3E6BC2654C8DD00343823 /* Project object */;
+}
